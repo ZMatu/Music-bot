@@ -24,7 +24,7 @@ module.exports = {
             .setDescription(description)
             .setColor('#2f3136')
             .setTimestamp()
-            .setFooter({ text: await Translate('Music comes first - Made with heart by the Community <❤️>'), iconURL: inter.member.avatarURL({ dynamic: true }) });
+            .setFooter({ text: await Translate('<❤️>'), iconURL: inter.member.avatarURL({ dynamic: true }) });
 
         inter.editReply({ embeds: [historyEmbed] });
     }
